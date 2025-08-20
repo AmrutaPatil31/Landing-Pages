@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    display:flex;
+     height:100%;
+     width:100%;
+     background-color: blanchedalmond;
+}
+#left{
+     display: flex;
+     height:100%;
+     width:40%;
+     background-color: rgba(255, 255, 255, 0.94);
+    
+}
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 30px;
+    width:100%;
+}
+#lnavr{
+    display: flex;
+    justify-content: center;
+}
+
+#lnavr i{
+   color: royalblue;
+}
+#lnavr a{
+    
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+#left #textCenter{
+    position:absolute;
+    top:30%;
+    left:5%;
+    height: 40%;
+    width:30%;
+   
+  
+}
+h1{
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+p{
+    line-height: 40px;
+}
+
+/*right block*/
+#right{
+    
+    height:100%;
+     width:55%;
+     background-color: rgb(205, 255, 227);
+}
+#top{
+    display:flex;
+     height:50%;
+    background-color: rgb(211, 55, 20);
+}
+#top-left{
+    width:50%;
+    background-image: url(https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: bottom;
+    }
+#top-right{
+    width:50%;
+    background-image: url(https://images.unsplash.com/photo-1598048150218-53ab5609ef31?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#bottom{
+     height:50%;
+     background-image: url(https://plus.unsplash.com/premium_photo-1680630201319-a028d6b84cf3?q=80&w=1211&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     background-size: cover;
+    background-position: center;
+}
+#small-bottom-box{
+    display:flex;
+    position: absolute;
+    bottom: 0%;
+    height:70px;
+    width:140px;
+    background-color:#ffff;
+}
+button{
+    width:60%;
+    background-color: #ffff;
+    border: 1.6px;
+}
