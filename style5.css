@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+   
+     height:100%;
+     width:100%;
+     background-image: url(https://plus.unsplash.com/premium_photo-1723322458878-5f3689d1e747?q=80&w=1156&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     background-size: cover;
+     background-position: center;
+     border:40px solid black;
+}
+#overlay{
+    height:100%;
+    width:100%;
+    background-color: transparent;
+
+}
+/*top text box*/
+#top-text{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 10%;
+    margin:5px;
+    padding:3px;
+    color: #ffff;
+}
+
+
+#top-textMiddle{
+    display:flex;
+    justify-content: space-between;
+}
+#top-textMiddle a{
+    margin-right:40px;
+    text-decoration: none;
+    color:#ffff;
+}
+#login{
+    background-color: #ffffff36;
+    padding:5px;
+    border-radius: 20px;
+}
+/*middle text box*/
+#middle-text{
+    margin:10px;
+    position: absolute;
+    top:40%;
+    right: 5%;
+    height:30%;
+    width:30%;
+    color: #ffff;
+}
+#middle-text h1{
+   font-size: 50px;
+}
+#middle-text h3{
+    margin:10px;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 10px;
+   background-color: rgba(2, 19, 25, 0.26);
+}
+
+/*bottom text box*/
+#bottom-text{
+   position:absolute;
+    bottom:5%;
+   margin-left:20%;
+}
+#bottom-text h1{
+    display: inline-block;
+    margin-right:30px;
+    font-size:170px;
+    color: #ffff;
+}
+#bottom-text #text2{
+    font-weight: 100;
+    font-family:system-ui;
+}
